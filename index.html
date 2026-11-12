@@ -1,14 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#fff0f5">
-
-    <title>Something For You ♡</title>
-
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <title>Something For You ♡</title>
 </head>
 
 <body>
@@ -54,7 +53,7 @@
             Click the gift to reveal your surprise
         </p>
 
-        <button class="open-button" id="openButton">
+        <button class="open-button" id="openButton" type="button">
             Open My Gift <span>♡</span>
         </button>
 
@@ -107,16 +106,14 @@
 
     </main>
 
-    <button class="music-button" id="musicButton">
-        <span id="musicIcon">♫</span>
-        <span id="musicText">Music On</span>
+    <button class="music-button" id="musicButton" type="button">
+        <span id="musicIcon">♪</span>
+        <span id="musicText">Music Off</span>
     </button>
 
-    <audio id="music" autoplay loop preload="auto">
+    <audio id="music" loop preload="auto">
         <source src="backsound.mp3" type="audio/mpeg">
     </audio>
-
-    <script src="script.js"></script>
 
 </body>
 </html>
